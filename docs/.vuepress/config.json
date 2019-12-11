@@ -1,0 +1,14 @@
+"navigation": [
+    {
+      "text": "About",
+      "link": "/about/",
+      "position": "left",
+      "external": false
+    },
+    {
+      "text": "Services",
+      "link": "/services/",
+      "position": "right",
+      "external": false
+    },
+  ]
