@@ -47,6 +47,12 @@ export default {
 
         Example: cat projects.txt
         `
+      },
+      welps : () => {
+        return `Hey are you okay?` 
+      },
+      uwu : () => {
+        return `Rawr🐲🐊 x3😋 nuzzles how are you😉🙂 pounces on you😛 you’re😃 so😄 warm🤒😈 o3o😏 notices😯 you have a bulge🍆 o:😯😮 someone’s happy😃 ;)😉😜 nuzzles your necky wecky😈😗~ murr~ hehehe😊 rubbies👋🤚 your bulgy🍆 wolgy you’re😌 so big😯😮 :oooo rubbies👋🤚 more on your bulgy🍆 wolgy it🚫 doesn’t stop🛑 growing ·///· 😐kisses😚😘 you🙂 and lickies😝👅💦💦`
       }
     },
     intro: "Hello! I am JayZ, a student and a freelance web developer from Singapore",

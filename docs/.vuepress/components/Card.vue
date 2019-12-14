@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg px-4 py-2 m-2 object-center">
+  <div class="lg:max-w-sm rounded overflow-hidden shadow-lg px-4 py-2 m-2 object-center">
     <img v-bind:src="img" class="w-full">
     <div class="px-6 py-4">
-      <h3 class="font-bold text-xl mb-2" v-html="title"></h3>
+      <a class="font-bold text-xl mb-2 hover:bg-teal-600 linkAnimation"  href="" v-html="title"></a>
       <p class="text-gray-700 text-base" v-html="mainText"></p>
     </div>
     <div class="px-6 py-4">
@@ -10,7 +10,11 @@
     </div>
   </div>
 </template>
-
+<style>
+  .linkAnimation{
+    transition: 0.2s;
+  }
+</style>
 <script>
 export default {
   props: {
@@ -27,6 +31,10 @@ export default {
       required: false
     },
     img: {
+      type: String,
+      required: false
+    },
+    link: {
       type: String,
       required: false
     }

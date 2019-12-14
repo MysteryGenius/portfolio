@@ -2,7 +2,7 @@
 
 hero_text: "<strong>Projects</strong>"
 proj1: "7FACILITIES"
-main1: "A planner created to help modernise an admin team’s traditional pen and paper workflow. The team needed to collect the booking requests for the week and  based on their previous records, approve or reject their request."
+main1: "A planner created to help modernise an admin team’s traditional pen and paper workflow. The team needed to collect the booking requests for the week and based on their previous records, approve or reject their request."
 tags1: ["Laravel", "Bootstrap"]
 img1: /img1.png
 proj2: "Flevre"
@@ -11,15 +11,15 @@ tags2: ["Laravel", "VueJS"]
 img2: /img2.png
 proj3: "Amulis"
 main3: "A project with a goal to create an amber alert system for elderly living alone in the old towns of Singapore. The project utilised IOT solutions including chatbots and intelligent speakers."
-tags3: ["Laravel", "VueJS"]
+tags3: ["Django", "Bootstrap"]
 img3: /img3.png
-proj4: "ASTRONOMY.SG REDESIGN"
+proj4: "ASTRONOMY.SG redesign"
 main4: "Tasked to redesign the site to give it a modern, fresh look."
-tags4: ["Laravel", "VueJS"]
+tags4: ["Wordpress"]
 img4: /img4.png
 proj5: "Mezcla"
 main5: "A mobile project that created to help amateur mixologist with their drink creations. By keying in the ingredients, they have laying around, they will be given a list of suggestions with step by step instructions "
-tags5: ["Laravel", "VueJS"]
+tags5: ["Android", "Firebase"]
 img5: /img5.png
 proj6: "DEEPFOCUS"
 main6: "A project created as an experiment to monitor long haul transport drivers. It will sound an alarm when the driver is detected to not be focusing, either not having your eyes opened or head turned for too long. "
@@ -29,6 +29,9 @@ img6: /img6.png
 <div class="heroWrapper">
     <Hero :text="$page.frontmatter.hero_text" />
 </div>
+<article class="m-6">
+    <p >Here is a list of projects I am proud of. Click on the title of each project to go to the live version of the project or the repository.</p>
+</article>
 <div class="lg:flex block">
     <Card :title="$page.frontmatter.proj1" :mainText="$page.frontmatter.main1" :tags="$page.frontmatter.tags1" :img="$page.frontmatter.img1"/>
     <Card :title="$page.frontmatter.proj2" :mainText="$page.frontmatter.main2" :tags="$page.frontmatter.tags2" :img="$page.frontmatter.img2"/>
